@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "752C779F-004E-4187-9C4E-FF10E96E9D33"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D57AAFC-2E7F-486F-BEFA-FAEFD47B1893"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "004-Block&#x7ed3;&#x6784;&#x4e0e;&#x7b7e;&#x540d;/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3D57AAFC-2E7F-486F-BEFA-FAEFD47B1893 - 6706b73d29136b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController viewDidLoad]"
+                  moduleName = "004-Block&#x7ed3;&#x6784;&#x4e0e;&#x7b7e;&#x540d;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cooci/Desktop/VIP/%E5%A4%A7%E5%B8%88%E7%8F%AD/%E5%A4%A7%E5%B8%88%E7%8F%AD-%E7%AC%AC23%E8%8A%82%E8%AF%BE-Block%E5%BA%95%E5%B1%82%E6%8E%A2%E7%B4%A2/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/004-Block%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AD%BE%E5%90%8D/004-Block%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AD%BE%E5%90%8D/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "3D57AAFC-2E7F-486F-BEFA-FAEFD47B1893 - ffae8eb4fe561b92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__29-[ViewController viewDidLoad]_block_invoke"
+                  moduleName = "004-Block&#x7ed3;&#x6784;&#x4e0e;&#x7b7e;&#x540d;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cooci/Desktop/VIP/%E5%A4%A7%E5%B8%88%E7%8F%AD/%E5%A4%A7%E5%B8%88%E7%8F%AD-%E7%AC%AC23%E8%8A%82%E8%AF%BE-Block%E5%BA%95%E5%B1%82%E6%8E%A2%E7%B4%A2/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/004-Block%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AD%BE%E5%90%8D/004-Block%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AD%BE%E5%90%8D/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "A9C92CF0-FD65-4A19-B094-F5E5D078E44C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "_Block_copy"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "A9C92CF0-FD65-4A19-B094-F5E5D078E44C - 6cba55c826f3cd7e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Block_copy"
+                  moduleName = "libsystem_blocks.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "4E7F8F40-3595-4FD1-BBC0-A2C061C18FFC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x1021ee118">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "B082C2FA-F9FC-43BC-97BC-DFE86E269A0A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x1021ee504">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "E77321BE-ACE5-40A2-9C23-C428ADD38578"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100bbe12c">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "9C5DD432-6E00-4A33-AA7B-8B4E77D42A2A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100bbe124">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "11EDACBF-1E55-40C0-A104-E949A03BC4EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100bbe15c">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "A5F99DA8-3493-4E38-9B5F-4B62EDFC0C50"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100dca11c">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "437F3F3E-5D0B-4B9C-97B6-F8DA4AAD5B4D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x102d2a118">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "21F207AD-C8F6-44E5-AADC-05FCDC92E969"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x10406e138">
+            <Locations>
+               <Location
+                  uuid = "21F207AD-C8F6-44E5-AADC-05FCDC92E969 - 6706b73d29136b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController viewDidLoad]"
+                  moduleName = "004-Block&#x7ed3;&#x6784;&#x4e0e;&#x7b7e;&#x540d;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cooci/Desktop/VIP/%E5%A4%A7%E5%B8%88%E7%8F%AD/%E5%A4%A7%E5%B8%88%E7%8F%AD-%E7%AC%AC23%E8%8A%82%E8%AF%BE-Block%E5%BA%95%E5%B1%82%E6%8E%A2%E7%B4%A2/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/004-Block%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AD%BE%E5%90%8D/004-Block%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AD%BE%E5%90%8D/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
