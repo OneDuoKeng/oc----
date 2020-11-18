@@ -75,14 +75,18 @@ static SyncCache *fetch_cache(bool create)
 {
     _objc_pthread_data *data;
     
+    //获取数据
     data = _objc_fetch_pthread_data(create);
     if (!data) return NULL;
 
+    //如果没有缓存
     if (!data->syncCache) {
+        //不创建
         if (!create) {
             return NULL;
         } else {
             int count = 4;
+            //创建线程初始化存储空间
             data->syncCache = (SyncCache *)
                 calloc(1, sizeof(SyncCache) + count*sizeof(SyncCacheItem));
             data->syncCache->allocated = count;
@@ -90,13 +94,14 @@ static SyncCache *fetch_cache(bool create)
     }
 
     // Make sure there's at least one open slot in the list.
+    //扩容操作
     if (data->syncCache->allocated == data->syncCache->used) {
         data->syncCache->allocated *= 2;
         data->syncCache = (SyncCache *)
             realloc(data->syncCache, sizeof(SyncCache) 
                     + data->syncCache->allocated * sizeof(SyncCacheItem));
     }
-
+    // 返回找到的缓存
     return data->syncCache;
 }
 

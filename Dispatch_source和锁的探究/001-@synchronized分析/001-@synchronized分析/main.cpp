@@ -75869,36 +75869,24 @@ struct AppDelegate_IMPL {
 
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
-    /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool; 
-
-
-        appDelegateClassName = NSStringFromClass(((Class (*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("AppDelegate"), sel_registerName("class")));
+    /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool;
         
-        {
-            id _rethrow = 0;
-            id _sync_obj = (id)appDelegateClassName;
-            objc_sync_enter(_sync_obj);
+        
+        appDelegateClassName = NSStringFromClass(((Class (*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("AppDelegate"), sel_registerName("class")));
+        { id _rethrow = 0; id _sync_obj = (id)appDelegateClassName; objc_sync_enter(_sync_obj);
             try {
                 struct _SYNC_EXIT { _SYNC_EXIT(id arg) : sync_exit(arg) {}
                     ~_SYNC_EXIT() {objc_sync_exit(sync_exit);}
                     id sync_exit;
-                }
-                _sync_exit(_sync_obj);
-
-            } catch (id e) {
-                _rethrow = e;
-            }
-            
-            {
-                struct _FIN { _FIN(id reth) : rethrow(reth) {}
+                } _sync_exit(_sync_obj);
+                
+            } catch (id e) {_rethrow = e;}
+            { struct _FIN { _FIN(id reth) : rethrow(reth) {}
                 ~_FIN() { if (rethrow) objc_exception_throw(rethrow); }
                 id rethrow;
-            }
-                _fin_force_rethow(_rethrow);
-                
-            }
+            } _fin_force_rethow(_rethrow);}
         }
-
+        
     }
     return UIApplicationMain(argc, argv, __null, appDelegateClassName);
 }
