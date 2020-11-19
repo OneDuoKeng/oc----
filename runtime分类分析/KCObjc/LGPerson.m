@@ -7,11 +7,28 @@
 
 #import "LGPerson.h"
 
+
+@interface LGPerson ()
+@property (nonatomic, copy) NSString *ext_name;
+@property (nonatomic, assign) int ext_age;
+
+- (void)ext_instanceMethod;
+
++ (void)ext_sayClassMethod;
+
+@end
+
 @implementation LGPerson
 
-//+ (void)load{
-//    
-//}
+- (void)ext_instanceMethod
+{
+    NSLog(@"%s",__func__);
+}
+
++ (void)ext_sayClassMethod
+{
+    NSLog(@"%s",__func__);
+}
 
 - (void)kc_instanceMethod3{
     NSLog(@"%s",__func__);

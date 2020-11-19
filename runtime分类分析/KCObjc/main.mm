@@ -38,7 +38,7 @@ int main(int argc, const char * argv[]) {
         // 分类 data -> 类
         // methodlizeClass
         LGPerson *person = [LGPerson alloc];
-        [person kc_instanceMethod1];
+//        [person kc_instanceMethod1];
         [person cateA_1];
 //        Method method = class_getClassMethod(LGPerson.class, @selector(kc_instanceMethod1));
 //        class_addMethod(LGPerson.class, @selector(sayHello), (IMP)sayHelloIMP, method_getTypeEncoding(method));
